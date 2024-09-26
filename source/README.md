@@ -12,7 +12,7 @@
 
 #### 线性代数 Linear Algebra
 
-- Linear Algebra, 4th Edition (Stephen H. Friedberg, Arnold J. Insel, Lawrence E.Spence, 2003)
+- [Linear Algebra, 4th Edition (Stephen H. Friedberg, Arnold J. Insel, Lawrence E.Spence, 2003)](/chengnanmath/books/linear-algebra-friedberg/vector-spaces/index.html)
 
 
 
