@@ -16,15 +16,15 @@ site:
       uri: /blogs/tech/index.html
     - title: License
       uri: /pages/license/index.html
-    - title: Discuss
-      uri: https://github.com/michaelliao/gitsite/discussions
-      external: true
+  #  - title: Discuss
+  #    uri: https://github.com/michaelliao/gitsite/discussions
+  #    external: true
   git:
     base-url: https://github.com/michaelliao/gitsite/blob/main/source
   contact:
     name: Chris Tang
     github: https://github.com/christangdt/chengnanmath
-    twitter: https://twitter.com/liaoxuefeng
+    twitter: https://twitter.com/
   books:
     index-marker: true
   search:
@@ -35,7 +35,7 @@ site:
   # control styles:
   styles:
     # show 'Edit in Git':
-    display-git-link: true
+    display-git-link: false
     # any custom styles used in theme:
     # code-font: Monaco
   integration:
