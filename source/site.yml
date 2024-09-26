@@ -14,6 +14,8 @@ site:
   #    uri: /books/gitsite-guide/index.html
     - title: Blogs
       uri: /blogs/tech/index.html
+    - title: About
+      uri: /pages/about/index.html
     - title: License
       uri: /pages/license/index.html
   #  - title: Discuss
