@@ -1,4 +1,4 @@
-# vector Spaces
+# Vector Spaces
 
 ### Content Notes
 
