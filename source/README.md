@@ -9,7 +9,9 @@
 ## 学习笔记
 
 #### 分析Analysis
-
+```alert type=tip title="Analysis, 2nd Edition"
+Tom M.Apostol (1974) [<<< Read More >>>](/chengnanmath/books/analysis-apostol/the-real-and-complex-number-systems/index.html)
+```
 
 
 #### 线性代数 Linear Algebra
