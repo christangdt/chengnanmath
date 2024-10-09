@@ -17,6 +17,7 @@ $$
 (\cos\theta+i\sin\theta)^a=(e^{i\theta})^a=e^{ia\theta}=\cos(a\theta)+i\sin(a\theta)
 $$
 ii) when $\theta=-\pi,a=1/2$, we have $(\cos\theta+i\sin\theta)^a=(-1)^{1/2}$, and $\cos(a\theta)+i\sin(a\theta)=-i$.
+
 iii) Let $\theta'=\theta+2k\pi$, with $k$ being the appropriate integer such that $-\pi<\theta'\leq\pi$, then by (i) we have
 $$
 (\cos\theta+i\sin\theta)^a=(\cos\theta'+i\sin\theta')^a=\cos(a\theta')+i\sin(a\theta')
