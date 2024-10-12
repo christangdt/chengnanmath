@@ -394,7 +394,7 @@ $$
 
 #### Theorem 8.48
 
-If a seriees is convergent with sum $S$, then it is also (C,1) summable with Cesàro sum $S$.
+If a series is convergent with sum $S$, then it is also (C,1) summable with Cesàro sum $S$.
 
 ## Infinite products
 
