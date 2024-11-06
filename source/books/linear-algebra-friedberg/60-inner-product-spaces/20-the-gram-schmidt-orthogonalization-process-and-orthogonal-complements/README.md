@@ -205,7 +205,7 @@ If $\sigma\in\mathsf{W}^{\perp}$, then $\lang{\sigma,\sigma_n}\rang=0$ for all $
 $$
 \sigma=(\sigma(1),-\sigma(1),-\sigma(1),\dots)
 $$
-If $\sigma(1)\ne0$, then $\sigma\notin\mathsf{V}$, thus we must have $\sigma(1)=0$, but this means $\sigma=0$. Thus $\mathsf{W}^{\perp}=\{0\}$, whence $(\mathsf{W}^{\perp})^{\perp}=\{0\}$, which is not equal to $\mathsf{W}$​.
+If $\sigma(1)\ne0$, then $\sigma\notin\mathsf{V}$, thus we must have $\sigma(1)=0$, but this means $\sigma=0$. Thus $\mathsf{W}^{\perp}=\{0\}$, whence $(\mathsf{W}^{\perp})^{\perp}=\mathsf{V}$, which is not equal to $\mathsf{W}$​.
 
 ### Summary
 
