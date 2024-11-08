@@ -101,7 +101,7 @@ $$
 
 We first prove corollary to Theorem 6.11 (a)(b)(d)(e).
 
-For (a), since $\mathsf{L}_{(A+B)^*}=(\mathsf{L}_{A+B})^*=(\mathsf{L}_A+\mathsf{L}_B)^*=(\mathsf{L}_A)^*+(\mathsf{L}_B)^*=\mathsf{L}_{A^*}+\mathsf{L}_{B^*}=\mathsf{L}_{A^*+B^*}$, we have $(A+B)^*=B^*A^*$.
+For (a), since $\mathsf{L}_{(A+B)^*}=(\mathsf{L}_{A+B})^*=(\mathsf{L}_A+\mathsf{L}_B)^*=(\mathsf{L}_A)^*+(\mathsf{L}_B)^*=\mathsf{L}_{A^*}+\mathsf{L}_{B^*}=\mathsf{L}_{A^*+B^*}$, we have $(A+B)^*=A^*+B^*$.
 
 For (b), since $\mathsf{L}_{(cA)^*}=(\mathsf{L}_{cA})^*=(c\mathsf{L}_A)^*=\overline{c}(\mathsf{L}_A)^*=\overline{c}\mathsf{L}_{A^*}=\mathsf{L}_{\overline{c}A^*}$, we have $(cA)^*=\overline{c}A^*$.
 
@@ -111,7 +111,7 @@ For (e), since $\mathsf{L}_{I^*}=(\mathsf{L}_{I})^*=\mathsf{I}^*=\mathsf{I}=\mat
 
 Next, we prove that if $A$ and $B$ are $m\times n$ matrix, then the conclusions in corollary to Theorem 6.11 still holds. Let $1\le i\le m$ and $1\le j\le n$.
 
-For (a), since $(A+B)^*_{ji}=\overline{(A+B)_{ij}}=\overline{A_{ij}}+\overline{B_{ij}}=A^*_{ji}+B^*_{ji}=(A^*+B^*)_{ji}$, we have $(A+B)^*=B^*A^*$.
+For (a), since $(A+B)^*_{ji}=\overline{(A+B)_{ij}}=\overline{A_{ij}}+\overline{B_{ij}}=A^*_{ji}+B^*_{ji}=(A^*+B^*)_{ji}$, we have $(A+B)^*=A^*+B^*$.
 
 For (b), since $(cA)^*_{ji}=\overline{(cA)_{ij}}=\overline{c}\overline{A_{ij}}=\overline{c}A^*_{ji}=(\overline{c}A^*)_{ji}$, we have $(cA)^*=\overline{c}A^*$.
 
@@ -163,7 +163,7 @@ Assume $\mathsf{T}\ne\mathsf{T}_0$, then there exists $x\in\mathsf{V}$ such that
 $$
 0\ne\lang{\mathsf{T}(x),\mathsf{T}(x)}\rang=\lang{x,\mathsf{T}^*\mathsf{T}(x)}\rang=\lang{x,0}\rang=0
 $$
-which is a contradiction. If we assume $\mathsf{TT^*}=\mathsf{T}_0$, then we still have $\mathsf{T}=\mathsf{T}_0$.
+which is a contradiction. If we assume $\mathsf{TT^*}=\mathsf{T}_0$, then we have $\mathsf{T}^*=\mathsf{T}_0$, which gives $\lang{\mathsf{T}(u),v}\rang=0$ for all $u,v\in\mathsf{V}$, let $v=\mathsf{T}(u)$ we see that $\mathsf{T}=\mathsf{T}_0$.
 
 #### 12
 
@@ -219,7 +219,7 @@ $$
 $$
 To show $\mathsf{T}^*$ exists, notice that
 $$
-\lang{\mathsf{T}(x),x'}\rang=\lang{\lang{x,y}\rang{z},x'}\rang=\lang{x,y}\rang\lang{z,x'}\rang=\lang{x,\overline{\lang{z.x'}\rang}y}\rang=\lang{x,\lang{x',z}\rang{y}}\rang
+\lang{\mathsf{T}(x),x'}\rang=\lang{\lang{x,y}\rang{z},x'}\rang=\lang{x,y}\rang\lang{z,x'}\rang=\lang{x,\overline{\lang{z,x'}\rang}y}\rang=\lang{x,\lang{x',z}\rang{y}}\rang
 $$
 we can have $\mathsf{T}^*(x)=\lang{x,z}\rang{y}$.
 
